@@ -264,7 +264,7 @@ color: #724101;
     color: rgb(0, 0, 0);
 }
 
-@media (width : 375px ) {
+@media (width<=415px ) {
     .clickhere{
            width: 184px;
        
