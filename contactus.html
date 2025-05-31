@@ -66,11 +66,6 @@
                     </div>
                   </div>
                   <div class="col mb-3">
-                    <label class="form-label">Password</label>
-                    <input type="password" name="Password" id="password" class="form-control" placeholder="Password" aria-label="Password" required >
-                    <span id="password1" style="color: red;font-weight: 200;"></span>
-                  </div>
-                  <div class="col mb-3">
                     <label class="form-label">Mobile Number</label>
                     <input type="text" name="Mobile" id="mobile" class="form-control" placeholder="Mobile No" aria-label="Mobile Number" required>
                     <span id="mobile1" style="color: red; font-weight: 200;"></span>
@@ -80,11 +75,15 @@
                     <input type="email" name="Email" id="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required >
                     <span id="email1" style="color: red; font-weight: 200;"></span>
                   </div>
-                 
+                  <div class="col mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea name="Message" class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                  </div>
                   <div class="col " style="display: flex; justify-content: center;">
                     <button type="submit" class="btn btn-primary px-8 message-btn" >
                       <img src="Images/send.svg" style="margin-top: -4px;" alt="">&ensp;Send Message</button>
                   </div>
+                 
                    <!-- Optional spam prevention -->
                       <input type="text" name="_honey" style="display:none">
 
